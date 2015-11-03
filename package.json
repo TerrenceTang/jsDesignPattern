@@ -1,0 +1,22 @@
+{
+  "name": "js_design_pattern",
+  "version": "1.0.0",
+  "description": "to practice how to create js design pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerrenceTang/jsDesignPattern.git"
+  },
+  "author": "Terrence Tang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TerrenceTang/jsDesignPattern/issues"
+  },
+  "homepage": "https://github.com/TerrenceTang/jsDesignPattern#readme",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}

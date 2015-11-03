@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Singleton</title>
+    <script>
+        var Universe;
+        (function(){
+            var instance;
+            Universe = function(){
+                if(instance){
+                    return instance;
+                }
+                instance = this;
+
+                // new feature
+                this.start_time = 0;
+                this.bang = "big"
+            }
+        }());
+    </script>
+</head>
+<body>
+
+</body>
+</html>
